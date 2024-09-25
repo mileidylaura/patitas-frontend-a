@@ -13,10 +13,8 @@ public class PatitasFronterasApplication {
 		SpringApplication.run(PatitasFronterasApplication.class, args);
 	}
 
-	@Bean
-	public RestTemplate restTemplate(){
-		return new RestTemplate();
-	}
+
+
 
 
 }
